@@ -56,5 +56,94 @@ a {
     padding-left: 20px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.container {
+    margin-top: 34px;
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxLeft {
+    width: 614px;
+    height: 100%;
+}
+
+.stories {
+    background-color: #FFFFFF;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    overflow-y: hidden;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.stories ion-icon {
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3)); 
+    font-size: 32px;
+    position: absolute;
+    top: 43px;
+    right: 8px;
+    z-index: 1;
+}
+
+.avatar {
+    margin-left: 14px;
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.avatar a:nth-child(1) img{
+    height: 66px;
+    border-radius: 50%;
+}
+
+.avatar a:nth-child(2) img{
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.avatar a{
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feed {    
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+}
+
+
+
+
+
+
+
+.boxRight {
+    background-color: green;
+    width: 293px;
+    height: 100%;
+}
 
 
