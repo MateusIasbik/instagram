@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.topo {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.topoCaixa {
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a:nth-child(1) img {
+    height: 22px;
+    padding-right: 10px;
+    border-right: 1px solid #DBDBDB;
+}
+
+.logo a:nth-child(2) img {
+    width: 103px;
+    padding-left: 5px;
+}
+
+.pesquisa input {
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #979797;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo .icones ion-icon {
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+
+
