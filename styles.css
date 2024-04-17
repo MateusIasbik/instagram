@@ -82,9 +82,10 @@ a {
     align-items: center;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
-    overflow-y: hidden;
+    overflow-x: hidden;
     position: relative;
     margin-bottom: 24px;
+    
 }
 
 .stories ion-icon {
