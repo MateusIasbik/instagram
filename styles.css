@@ -139,6 +139,73 @@ a {
     border: 1px solid #DBDBDB;
 }
 
+.topFeed {
+    display: flex;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+}
+
+.topFeedLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.topFeedLeft img {
+    background-color: red;
+    margin-right: 15px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.imgFeed img {
+    width: 100%;
+    height: 612px;
+    justify-content: space-between;
+}
+
+.iconFeed {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    margin: 0 15px;
+}
+
+.iconFeed ion-icon {
+    padding: 10px 13px 0 0; 
+}
+
+.likeFeed {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 54px 17px;                         ;
+}
+
+.likeFeed img {
+    margin-right: 10px;
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.likeFeed p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.likeFeed span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
 
 
 
