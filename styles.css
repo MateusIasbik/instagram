@@ -352,7 +352,7 @@ a {
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
 }
 
 .footer ion-icon {
