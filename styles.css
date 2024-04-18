@@ -334,6 +334,10 @@ a {
     width: 100%;
 }
 
+.feed img {
+    width: 100%;
+}
+
 .container {
     width: 100%;
     display: flex;
