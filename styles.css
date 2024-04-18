@@ -24,15 +24,20 @@ body {
     align-items: center;
 }
 
+.logolargeCenter img {
+    width: 103px;
+    display: none;
+}
+
 .logo a:nth-child(1) img {
     height: 22px;
     padding-right: 10px;
-    border-right: 1px solid #DBDBDB;
 }
 
-.logo a:nth-child(2) img {
+.logolarge {
     width: 103px;
     padding-left: 5px;
+    border-left: 1px solid #DBDBDB;
 }
 
 .pesquisa input {
@@ -314,6 +319,10 @@ a {
         display: none;
     }
 
+    .topoCaixa {
+        padding: 0 10px;
+    }
+
     .container {
         margin-top: 34px;
         display: flex;
@@ -323,54 +332,63 @@ a {
 }
 
 @media (max-width: 614px){
+
+    .topoCaixa input, .logolarge, .iconNone {
+        display: none;
+    }
+
     
-.topo, .container, .feed, .stories {
-    width: 100vh;
-}
+    .logolargeCenter img {
+        display: flex;
+    }
+        
+    .topo, .container, .feed, .stories {
+        width: 100vh;
+    }
 
-.boxLeft {
-    width: 100%;
-}
+    .boxLeft {
+        width: 100%;
+    }
 
-.imgFeed img {
-    width: 100%;
-}
+    .imgFeed img {
+        width: 100%;
+    }
 
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-}
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
 
-.center {
-    width: 100%;
-}
+    .center {
+        width: 100%;
+    }
 
-.stories {
-    background-color: inherit;
-    margin-bottom: 0;
-}
+    .stories {
+        background-color: inherit;
+        margin-bottom: 0;
+    }
 
-.stories ion-icon{
-    display: none;
-}
+    .stories ion-icon{
+        display: none;
+    }
 
-.footer {
-    display: none;
-    width: 100%;
-    background-color: #FFFFFF;
-    border-top: 1px solid #DBDBDB;
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
+    .footer {
+        display: none;
+        width: 100%;
+        background-color: #FFFFFF;
+        border-top: 1px solid #DBDBDB;
+        font-size: 22px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
 
-.footer ion-icon {
-    padding: 19px 16px;
-}
+    .footer ion-icon {
+        padding: 19px 16px;
+    }
 
 }
