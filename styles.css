@@ -3,12 +3,17 @@ body {
 }
 
 .topo {
+    background-color: #FFFFFF;
     width: 100%;
     height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .topoCaixa {
@@ -70,7 +75,7 @@ a {
 }
 
 .container {
-    margin-top: 34px;
+    margin-top: 88px;
     width: 935px;
     display: flex;
     justify-content: space-between;
@@ -187,7 +192,7 @@ a {
 .likeFeed {
     display: flex;
     align-items: center;
-    margin: 7px 0 13px 17px;                         ;
+    margin: 7px 0 13px 17px;                        
 }
 
 .likeFeed img {
@@ -209,9 +214,11 @@ a {
 
 .sidebar {
     width: 293px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 88px;
 }
 
 .boxRightTop {
@@ -321,7 +328,7 @@ a {
     }
 
     .container {
-        margin-top: 34px;
+        margin-top: 88px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -348,13 +355,13 @@ a {
 
     .imgFeed img {
         width: 100%;
-    }
+    }  
 
     .container {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 0;
+        margin-top: 54px;
     }
 
     .center {
